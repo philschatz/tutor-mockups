@@ -1,0 +1,86 @@
+body {
+  max-width: 500px;
+  padding: 20px 0 0 40px;
+}
+
+
+.input-expando { display: none; }
+
+.expando {
+  cursor: pointer;
+}
+
+
+.input-expando:not(:checked) ~ .panel-body { display: none; }
+
+.due .boilerplate { color: #ccc; }
+
+
+table:not(:hover) .additional {
+  display: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-left: 15px;
+  margin-top: 7px;
+}
+
+li {
+  padding-top: 3px;
+}
+
+.good { color: green; }
+.rusty {
+  color: red;
+  font-weight: bold;
+}
+
+
+.progress {
+  display: inline-block;
+  width: 200px;
+  overflow: visible;
+  margin-top: 10px;
+  margin-right: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.progress:hover .progress-bar-danger {
+  background-color: #B64642;
+}
+
+.progress:hover .progress-bar-warning {
+  background-color: #CE9544;
+}
+
+.progress:hover .progress-bar-success {
+  background-color: #519951;
+}
+
+.progress-bar-danger {
+  border-radius: 5px 0 0 5px;
+}
+
+.progress-bar-success {
+  border-radius: 0 5px 5px 0;
+}
+
+.my-progress {
+  font-size: 20px;
+  line-height: 40px;
+  cursor: pointer;
+}
+
+.my-progress-indicator {
+  position: absolute;
+  right: 58px;
+  display: block;
+  line-height: 16px;
+}
+
+#reminder-modal .modal-dialog {
+  width: 400px;
+}

@@ -1,0 +1,173 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="main.css"/>
+  </head>
+  <body>
+
+    <h1>Biology 101
+      <span class="my-progress pull-right" title="See how I'm doing">71%</span>
+      <div class="progress pull-right" title="See how I'm doing" style="display:inline-block; width:200px;">
+        <div class="progress-bar progress-bar-danger" style="width: 25%">
+          <span class="sr-only">35% Complete (success)</span>
+        </div>
+        <div class="progress-bar progress-bar-warning" style="width: 50%">
+          <span class="sr-only">20% Complete (warning)</span>
+        </div>
+        <div class="progress-bar progress-bar-success" style="width: 25%">
+          <span class="sr-only">10% Complete (danger)</span>
+        </div>
+        <div class="my-progress-indicator">|</div>
+      </div>
+    </h1>
+
+    <div class="panel panel-default open">
+      <input class="input-expando" type="checkbox" id="assignment-4-expando"/>
+      <div class="panel-heading">
+        <label class="expando" for="assignment-4-expando" title="What does it cover?">&#160;+&#160; Assignment 4</label>
+        <span class="due"><span class="boilerplate">due in </span><span class="due-in rusty">2 days</span></span>
+        <span class="pull-right">
+          <button class="btn btn-primary btn-sm">Take It Now</button>
+          <button class="btn btn-default" title="remind me tomorrow" data-toggle="modal" data-target="#reminder-modal"><i class="fa fa-clock-o"></i></button>
+          <button class="btn btn-default btn-sm" title="Practice Problems">Practice</button>
+        </span>
+      </div>
+      <div class="panel-body">
+
+        <div class="covers">
+          This covers:
+          <ul>
+            <li><a href="#" title="Go To Book">Mitosis</a> <span class="good">good</span> <button class="btn btn-xs btn-default" title="Practice Problems">Practice</button></li>
+            <li><a href="#" title="Go To Book">Meosis</a> <span class="rusty">poor</span> <button class="btn btn-xs btn-default" title="Practice Problems">Practice</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <h3>Upcoming</h3>
+
+    <div class="panel panel-default upcoming">
+      <input class="input-expando" type="checkbox" id="assignment-5-expando"/>
+      <div class="panel-heading">
+        <label class="expando" for="assignment-5-expando" title="What does it cover?">&#160;+&#160; Assignment 5</label>
+        <span class="due"><span class="boilerplate">starts in 5 days</span></span>
+        <span class="pull-right">
+          <button class="btn btn-sm btn-default" title="Practice Problems">Practice</button>
+        </span>
+      </div>
+      <div class="panel-body">
+        <div class="covers">
+          This covers:
+          <ul>
+            <li><a href="#" title="Practice Problems">Electron Transport Chain</a> <button class="btn btn-xs btn-default" title="Go to the book">Read More</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="panel panel-default upcoming">
+      <input class="input-expando" type="checkbox" id="midterm-expando"/>
+      <div class="panel-heading">
+        <label class="expando" for="midterm-expando" title="What does it cover?">&#160;+&#160; Midterm</label>
+        <span class="due"><span class="boilerplate">starts in 2 weeks</span></span>
+        <span class="pull-right">
+          <button class="btn btn-sm btn-default" title="Practice Problems">Practice</button>
+        </span>
+      </div>
+      <div class="panel-body">
+        <div class="covers">
+          This covers:
+          <ul>
+            <li><a href="#" title="Practice Problems">Mitosis</a> <span class="good">good</span> <button class="btn btn-xs btn-default" title="Go to the book">Read More</button></li>
+            <li><a href="#" title="Practice Problems">Meosis</a> <span class="rusty">poor</span> <button class="btn btn-xs btn-default" title="Go to the book">Read More</button></li>
+            <li><a href="#" title="Practice Problems">Electron Transport Chain</a> <button class="btn btn-xs btn-default" title="Go to the book">Read More</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+    <h3>Completed</h3>
+
+    <div class="panel panel-default upcoming">
+      <input class="input-expando" type="checkbox" id="assignment-3-expando"/>
+      <div class="panel-heading">
+        <label class="expando" for="assignment-3-expando" title="What does it cover?">&#160;+&#160; Assignment 3</label>
+        <span class="due"><span class="boilerplate">finished 7 days ago</span></span>
+        <span class="pull-right">
+          <span>74%</span>
+          <button class="btn btn-sm btn-default" title="Practice Problems">Practice</button>
+        </span>
+      </div>
+      <div class="panel-body">
+        <div class="covers">
+          This covered:
+          <ul>
+            <li><a href="#" title="Practice Problems">Electron Transport Chain</a> <button class="btn btn-xs btn-default" title="Go to the book">Read More</button></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+<div class="panel panel-default upcoming">
+  <input class="input-expando" type="checkbox" id="assignment-2-expando"/>
+  <div class="panel-heading">
+    <label class="expando" for="assignment-2-expando" title="What does it cover?">&#160;+&#160; Assignment 2</label>
+    <span class="due"><span class="boilerplate">finished 2 weeks ago</span></span>
+    <span class="pull-right">
+      <span class="good">92%</span>
+      <button class="btn btn-sm btn-default" title="Practice Problems">Practice</button>
+    </span>
+  </div>
+  <div class="panel-body">
+    <div class="covers">
+      This covered:
+      <ul>
+        <li><a href="#" title="Practice Problems">Electron Transport Chain</a> <button class="btn btn-xs btn-default" title="Go to the book">Read More</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div class="panel panel-default upcoming">
+  <input class="input-expando" type="checkbox" id="assignment-1-expando"/>
+  <div class="panel-heading">
+    <label class="expando" for="assignment-1-expando" title="What does it cover?">&#160;+&#160; Assignment 1</label>
+    <span class="due"><span class="boilerplate">finished 1 month ago</span></span>
+    <span class="pull-right">
+      <span class="rusty">40%</span>
+      <button class="btn btn-sm btn-default" title="Practice Problems">Practice</button>
+    </span>
+  </div>
+  <div class="panel-body">
+    <div class="covers">
+      This covered:
+      <ul>
+        <li><a href="#" title="Practice Problems">Electron Transport Chain</a> <button class="btn btn-xs btn-default" title="Go to the book">Read More</button></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<div id="reminder-modal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <p>You will receive an email reminder tomorrow morning.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">OK</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+  </body>
+</html>
