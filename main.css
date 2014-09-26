@@ -9,6 +9,12 @@ body {
   cursor: pointer;
 }
 
+.panel-heading label.expando::before {
+  display: inline-block;
+  margin-right: .5em;
+}
+.input-expando                ~ .panel-heading label.expando::before { content: '-'; }
+.input-expando:not(:checked) ~ .panel-heading label.expando::before { content: '+'; }
 
 .input-expando:not(:checked) ~ .panel-body { display: none; }
 
