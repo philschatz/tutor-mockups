@@ -73,17 +73,26 @@ li {
   border-radius: 0 5px 5px 0;
 }
 
-.my-progress {
+.my-grade {
   font-size: 20px;
   line-height: 40px;
   cursor: pointer;
 }
 
-.my-progress-indicator {
+.my-grade-indicator {
   position: absolute;
   right: 58px;
   display: block;
   line-height: 16px;
+}
+
+.my-progress-indicator {
+  position: absolute;
+  right: 40px;
+  top: 4px;
+  display: block;
+  line-height: 8px;
+  color: rgba(0, 0, 0, 0.25);
 }
 
 #reminder-modal .modal-dialog {
