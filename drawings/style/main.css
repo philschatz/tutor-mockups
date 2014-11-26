@@ -1,0 +1,182 @@
+@import url('./md-font/css/md-font.css');
+@import url('./angular-material.css');
+@import url('./themes/blue-theme.css');
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('./Roboto-Regular.ttf') format('truetype');
+}
+
+body {
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+/*i.md {
+  display: inline-block;
+}
+*/
+
+md-toolbar {
+  position: fixed;
+  top: 0;
+  min-height: 56px;
+  padding: 10px 0;
+
+}
+
+md-toolbar > .md-toolbar-tools {
+  padding: 0;
+  height: 40px;
+}
+
+md-toolbar + * {
+  margin-top: 60px;
+}
+
+md-toolbar.md-blue-theme button {
+  color: white;
+}
+
+md-toolbar i.md {
+    font-size: 30px;
+}
+
+md-hero {
+  display: block;
+  color: white;
+  background-color: #2196f3; /*blue*/
+  padding-left: 16px;
+  padding-top: 25px;
+  padding-bottom: 30px;
+}
+
+md-hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+md-hero h1 small {
+  font-size: 25%;
+  color: #dfdfdf;
+}
+
+
+md-list {
+  display: block;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+md-list > md-item > md-item-content {
+  padding-left: 16px;
+}
+
+md-list > md-item > md-item-content > .md-tile-left {
+  margin-right: -10px;
+}
+
+md-list > md-item > md-item-content > .md-tile-left i {
+  font-size: 30px;
+}
+
+md-list > md-item > md-item-content > .md-tile-content {
+  padding-left: 0;
+}
+
+
+md-list > md-list-header {
+  display: block;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  color: #ccc;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+md-list > md-list-header:not(:first-of-type) {
+  border-top: 1px solid #ccc;
+}
+
+md-list > md-list-header + md-item > md-item-content > .md-tile-content {
+  border-top: 0;
+}
+
+md-list > md-item > md-item-content > .md-tile-content {
+  display: block;
+  border-top: 1px solid #ccc;
+  /*min-height: 70px;*/
+}
+
+.md-tile-content-first { font-weight: bold; }
+.md-tile-content-second { color: #999; }
+
+md-item.task-completed { color: #999; }
+
+
+
+
+
+.md-fab-bottom-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+
+.md-button.md-blue-theme.md-fab {
+  background-color: #ccc;
+}
+
+
+
+
+
+.calendar {
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.calendar > .week-header {
+  margin: 20px 0;
+}
+
+.calendar > .week {
+  margin: 10px 0;
+}
+
+.calendar > .week-header > .day {
+  color: #666;
+}
+.calendar /* > .week > */ .day {
+  /* Flex */
+  flex: 0 0 14.2%;
+  max-width: 14.2%;
+
+  color: #ccc;
+  text-align: center;
+}
+
+.calendar > .week > .day > button.day-num {
+  display: inline-block;
+  outline: none;
+  border: 0;
+  padding: 6px;
+  background: transparent;
+  text-align: center;
+  cursor: pointer;
+
+  width: 30px;
+  border-radius: 50%;
+  color: #ccc;
+}
+
+.calendar > .week > .day > .day-num.event {
+  background-color: #ccc;
+  color: black;
+}
+
+.calendar > .week > .day > .day-num.today {
+  background-color: #2196f3;
+  color: white;
+}
